@@ -24,7 +24,7 @@ function doWhileLoop(num) {
     i = i + 1;
     return i;
   } do {
-    console.log("doo-bee-doo-bee-doo");
+    console.log("I run once regardless.");
     }
     while (incrementVariable() < 1);
 }
