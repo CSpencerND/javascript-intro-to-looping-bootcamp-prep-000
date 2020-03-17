@@ -19,9 +19,8 @@ function whileLoop(n) {
 
 
 function doWhileLoop(num) {
-  
-} 
-  
   do {
-    console.log("I run once regardless.");
-   } while (doWhileLoop(0) < 10);
+    num.pop();
+  } while (array.length>0 && maybeTrue());
+  return num;
+}
