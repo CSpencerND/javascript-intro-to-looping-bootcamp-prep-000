@@ -25,5 +25,5 @@ function maybeTrue() {
 }
 
 while (maybeTrue()) {
-  console.log("And I ran; I ran so far away!");
+  console.log("I run once regardless.");
 }
