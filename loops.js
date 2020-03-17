@@ -20,10 +20,3 @@ function whileLoop(n) {
 }
 
 
-function maybeTrue() {
-  return Math.random() >= 0.5;
-}
-
-while (maybeTrue()) {
-  console.log("I run once regardless.");
-}
